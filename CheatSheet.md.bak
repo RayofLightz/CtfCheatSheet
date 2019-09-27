@@ -17,7 +17,7 @@
 This section contains references to popular RE tools used in ctfs.
 
 ###r2
-Radare2 is an open source disassembler and hex editor.
+Radare2 is an opensource disassembler and hex editor.
 
 open up a file
 
@@ -49,13 +49,13 @@ enter hex viewer
 
 ####gdb
 
-Gdb (GNU debugger) is an open source debugger.
+Gdb (GNU debuger) is an opensource debugger.
 
 open up a file
 
 `gdb <filename>`
 
-changes disassembly flavor to Intel syntax (Because at&t syntax is garbage)
+changes disassembly flavor to intel syntax (Because at&t syntax is garbage)
 
 `set disassembly-flavor intel`
 
@@ -144,7 +144,7 @@ Search for possible flags: note this will not pickup special characters
 
 `grep 'FLAG\{[A-Z0-9a-z]\}' <file>`
 
-Use extended regex with grep. Sometimes the command `egrep` is an alias to this already
+Use extened regex with grep. Somethimes the command `egrep` is an alias to this already
 
 `grep -E`
 
@@ -173,10 +173,10 @@ for more information run
 ####text manipulation and redirection
 Helpful bash redirections
 
-Search the contents of a website using a pipeline and grep
+Search the contentes of a website using a pipeline and grep
 
 `curl http://example.com/ | grep "DUCK"`
 
-Get the number of unique lines in a text file and sort by number of occurrences
+Get the number of unique lines in a text file and sort by number of occurances
 
 `uniq -c <file> | sort -n`
