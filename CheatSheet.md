@@ -23,6 +23,9 @@ open up a file
 
 `r2 <filename>`
 
+grep in r2
+`<command>  ~ <search string>`
+
 analyze all the things ALWAYS RUN WHEN FIRST STARTING
 
 `aaa`
